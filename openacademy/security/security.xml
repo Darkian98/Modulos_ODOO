@@ -1,9 +1,8 @@
 <odoo>
-
+    <data>
         <record id="group_manager" model="res.groups">
             <field name="name">OpenAcademy / Manager</field>
         </record>
-
         <record id="only_responsible_can_modify" model="ir.rule">
             <field name="name">Only Responsible can modify Course</field>
             <field name="model_id" ref="model_openacademy_course"/>
@@ -14,8 +13,8 @@
             <field name="perm_unlink" eval="1"/>
             <field name="domain_force">
                 ['|', ('responsible_id','=',False),
-                      ('responsible_id','=',user.id)]
+                ('responsible_id','=',user.id)]
             </field>
         </record>
-
+    </data>
 </odoo>
