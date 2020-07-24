@@ -1,6 +1,9 @@
+
+
 from odoo import models, fields, api, exceptions
 from datetime import timedelta
 from odoo import models, fields, api, exceptions, _
+
 
 
 class openacademy(models.Model):
@@ -231,3 +234,4 @@ class Session(models.Model):
             'target': 'new',
             'context':ctx,
         }
+
