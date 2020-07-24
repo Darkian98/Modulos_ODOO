@@ -1,41 +1,41 @@
 # -*- coding: utf-8 -*-
-
-
 {
     'name': "openacademy",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Openacademy module. Test module to try things.
+        Ñeee ee.""",
 
     'description': """
-        Long description of module's purpose
+        Long description of module's purpose.Hercle, bubo grandis!.A falsis, imber magnum lactea.
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Eduard Ojer",
+    'website': "http://www.bitmodules.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
+    'category': 'Pruebas',
+    'version': '1.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'report', 'board'],
+    'depends': ['base', 'board', 'website', 'mail', 'website_sale'],
 
     # always loaded
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
+        'views/views.xml',
+        'views/templates.xml',
         'views/openacademy.xml',
         'views/partner.xml',
-        'views/session_workflow.xml',
-        'views/session_board.xml',
+        # 'views/session_workflow.xml',
         'reports.xml',
+        'views/session_board.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        # 'demo/demo.xml',
     ],
 }

@@ -18,7 +18,7 @@
             <field name="wkf_id" ref="wkf_session"/>
             <field name="flow_start" eval="True"/>
             <field name="kind">dummy</field>
-            <field name="action"></field>
+            <field name="action"/>
             <field name="action_id" ref="set_session_to_draft"/>
         </record>
 
@@ -33,7 +33,7 @@
             <field name="name">Confirmed</field>
             <field name="wkf_id" ref="wkf_session"/>
             <field name="kind">dummy</field>
-            <field name="action"></field>
+            <field name="action"/>
             <field name="action_id" ref="set_session_to_confirmed"/>
         </record>
 
@@ -48,7 +48,7 @@
             <field name="name">Done</field>
             <field name="wkf_id" ref="wkf_session"/>
             <field name="kind">dummy</field>
-            <field name="action"></field>
+            <field name="action"/>
             <field name="action_id" ref="set_session_to_done"/>
         </record>
 

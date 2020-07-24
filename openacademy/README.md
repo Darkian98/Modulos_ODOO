@@ -1,22 +1,17 @@
-# openAcademy-Odoo13
+# openacademy
+Version Odoo 10
 
-### Odoo 13 works with python3.6 or above
+[Odoo 10 Guidelines](https://www.odoo.com/documentation/10.0/reference/guidelines.html#commit-message)
 
-#### To Run Module Firstly install odoo13 via github
-```git clone https://github.com/odoo/odoo.git```
+Commit message
+Prefix your commit with
 
-#### For Create virtualenv
-```python3.6 -m venv myodovenv```
+- **[IMP]** for improvements
+- **[FIX]** for bug fixes
+- **[REF]** for refactoring
+- **[ADD]** for adding new resources
+- **[REM]** for removing of resources
+- **[MOV]** for moving files (Do not change content of moved file, otherwise Git will loose track, and the history will be lost !), or simply moving code from a file to another one.
+- **[MERGE]** for merge commits (only for forward/back-port)
+- **[CLA]** for signing the Odoo Individual Contributor License
 
-```source myodovenv/bin/activate```
-
-#### For İnstall requirements
-```pip install -r requirements.txt```
-
-#### Copy Module to Addons
-```cp -r openAcademy-Odoo13 ./addons```
-
-#### For Run Odoo Project
-```python odoo-bin -r "odoo" -w 'odoo123'  --addons-path=addons/```
-
-##### Then Open Odoo and Search openAcademy module and Install it

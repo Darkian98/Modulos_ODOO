@@ -4,9 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-  <component name="TemplatesService">
-    <option name="TEMPLATE_CONFIGURATION" value="Web2Py" />
+    <orderEntry type="module" module-name="podcast" />
+    <orderEntry type="module" module-name="lopla" />
+    <orderEntry type="module" module-name="oepetstore" />
+    <orderEntry type="module" module-name="custom-addons" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
