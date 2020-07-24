@@ -234,4 +234,3 @@ class Session(models.Model):
             'target': 'new',
             'context':ctx,
         }
-
