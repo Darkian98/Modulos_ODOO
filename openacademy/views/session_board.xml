@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <odoo>
-    <data>
+
         <record model="ir.actions.act_window" id="act_session_graph">
             <field name="name">Attendees by course</field>
             <field name="res_model">openacademy.session</field>
             <field name="view_type">form</field>
             <field name="view_mode">graph</field>
             <field name="view_id"
-                   ref="openacademy.openacademy_session_graph_view"/>
+                ref="openacademy.session_graph_view"/>
         </record>
         <record model="ir.actions.act_window" id="act_session_calendar">
             <field name="name">Sessions</field>
@@ -62,5 +62,4 @@
             action="open_board_session"
             sequence="1"
             id="menu_board_session" icon="terp-graph"/>
-    </data>
 </odoo>
