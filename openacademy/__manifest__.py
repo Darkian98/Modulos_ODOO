@@ -10,8 +10,8 @@
         Long description of module's purpose.Hercle, bubo grandis!.A falsis, imber magnum lactea.
     """,
 
-    'author': "Eduard Ojer",
-    'website': "http://www.bitmodules.com",
+    'author': "Ian Santos",
+    'website': "https://github.com/Darkian98/Modulos_ODOO/tree/master/openacademy",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
